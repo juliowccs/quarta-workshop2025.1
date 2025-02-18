@@ -20,6 +20,7 @@ export default function CharacterList() {
 
   return (
     <>
+      <h1 className='font-bold text-4xl mb-8'>Rick And Morty Characters</h1>
       <input
         type="text"
         onChange={(e) => setSearch(e.target.value)}
